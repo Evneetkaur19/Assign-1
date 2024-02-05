@@ -29,9 +29,9 @@ namespace Assign_1.Controllers
             /// <param name="id"/>user input integer</param>
             /// </summary>
             /// <return>"greeting to id people</return>
-            /// <example>http://localhost:61608/api/greeting/3 --> greetings to 3 people!</example>
-            /// <example>http://localhost:61608/api/greeting/6 --> greetings to 6 people!</example>
-            /// <example>http://localhost:61608/api/greeting/0 --> greetings to 0 people!</example>
+            /// <example>https://localhost:44390/api/greetings/2 --> greetings to 2 people!</example>
+            /// <example>https://localhost:44390/api/greetings/10 --> greetings to 10 people!</example>
+            /// <example>https://localhost:44390/api/greetings/90 --> greetings to 90 people!</example>
 
             return $"greetings to {id} people!";
         }
